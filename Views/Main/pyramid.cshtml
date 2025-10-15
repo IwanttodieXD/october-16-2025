@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Pyramid Page";
+}
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="card shadow-lg rounded-4 p-4 w-100" style="max-width: 600px;">
+        <h1 class="text-center text-primary">Make a Pyramid</h1>
+
+        <form asp-action="pyramid" method="post" class="mb-4">
+            <div class="mb-3">
+                <label for="rows" class="form-label">Enter the number of rows:</label>
+                <input type="number" name="rows" id="rows" placeholder="Put number here" class="form-control text-center" />
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+
+        <h4>@ViewBag.msg</h4>
+
+        <div class="text-center mt-3">
+            <h3>@Html.Raw(ViewBag.pyramid)</h3>
+        </div>  
+
+        <div class="text-center mt-4">
+            <form asp-action="LoadEndDashboard" method="post">
+                    <button type="submit" class="btn btn-danger">Back</button>
+            </form>
+        </div>
+    </div>
+</div>

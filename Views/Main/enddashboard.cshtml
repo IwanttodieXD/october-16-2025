@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Main Page";
+}
+
+<h1 class="text-center text-primary mt-4">Welcome to the Fun Part</h1>
+<p class="text-center mb-4">Please click any button!</p>
+
+<div class="container text-center">
+    <form asp-action="LoadDiv3" method="post">
+        <button type="submit" class="menu-btn">Divisible by 3</button>
+    </form>
+    <form asp-action="LoadGallery" method="post">
+        <button type="submit" class="menu-btn">Gallery</button>
+    </form>
+    <form asp-action="LoadGamba" method="post">
+        <button type="submit" class="menu-btn">Gacha</button>
+    </form>
+    <form asp-action="LoadPyramid" method="post">
+        <button type="submit" class="menu-btn">Pyramid</button>
+    </form>
+    <form asp-action="LoadTheEnd" method="post">
+        <button type="submit" class="menu-btn">The End</button>
+    </form>
+</div>

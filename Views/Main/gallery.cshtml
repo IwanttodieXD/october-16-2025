@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Gallery Page";
+}
+<div class="container mt-5">
+    <div class="gallery-panel p-4 shadow-lg rounded">
+        <h2 class="text-center text-primary">Image Gallery</h2>
+
+        <div class="row g-3 justify-content-center">
+            <div class="col-md-3 col-sm-6">
+                <div class="image-box p-2 bg-white rounded shadow-sm">
+                    <img src="~/images/art1.png" class="img-fluid rounded" alt="Image 1" />
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="image-box p-2 bg-white rounded shadow-sm">
+                    <img src="~/images/art3.png" class="img-fluid rounded" alt="Image 2" />
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="image-box p-2 bg-white rounded shadow-sm">
+                    <img src="~/images/art4.png" class="img-fluid rounded" alt="Image 3" />
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="image-box p-2 bg-white rounded shadow-sm">
+                    <img src="~/images/art2.png" class="img-fluid rounded" alt="Image 4" />
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <form asp-action="LoadDashboard" method="post" class="d-inline-block me-2">
+                <button type="submit" class="btn btn-danger">Back</button>
+            </form>
+            <form asp-action="LoadGamba" method="post" class="d-inline-block">
+                <button type="submit" class="btn btn-primary">Next</button>
+            </form>
+        </div>
+    </div>
+</div>

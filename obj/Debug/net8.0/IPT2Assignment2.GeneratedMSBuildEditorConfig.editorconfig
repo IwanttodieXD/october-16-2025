@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IPT2Assignment2
+build_property.RootNamespace = IPT2Assignment2
+build_property.ProjectDir = C:\Users\USER\source\repos\IPT2Assignment2\IPT2Assignment2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\USER\source\repos\IPT2Assignment2\IPT2Assignment2
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/about.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxhYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxkYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/div3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxkaXYzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/end.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxlbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/enddashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxlbmRkYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxnYWxsZXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/gamba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxnYW1iYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Main/pyramid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxweXJhbWlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Shared/LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-zmu82stmyg
+
+[C:/Users/USER/source/repos/IPT2Assignment2/IPT2Assignment2/Views/Shared/MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1haW5MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d2qmlpxdwd

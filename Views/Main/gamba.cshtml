@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "LEZGO GANBVLING!1!!";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded-4 text-center">
+        <h1 class="mb-4 text-warning">BINGO++++: SLOT MACHINE</h1>
+
+        <div class="row mb-2">
+            <div class="col">
+                <h5>1st Number</h5>
+            </div>
+            <div class="col">
+                <h5>2nd Number</h5>
+            </div>
+            <div class="col">
+                <h5>3rd Number</h5>
+            </div>
+        </div>
+
+        <div class="row mb-4">
+            <div class="col">
+                <div class="border border-primary rounded-3 py-3 fs-2">@ViewBag.num1</div>
+            </div>
+            <div class="col">
+                <div class="border border-primary rounded-3 py-3 fs-2">@ViewBag.num2</div>
+            </div>
+            <div class="col">
+                <div class="border border-primary rounded-3 py-3 fs-2">@ViewBag.num3</div>
+            </div>
+        </div>
+
+        <form asp-action="gamba">
+            <button type="submit" class="btn btn-success">PULL!</button>
+        </form>
+
+        <h4>@ViewBag.msg</h4>
+
+        <div class="d-flex justify-content-center gap-3">
+            <form asp-action="LoadDashboard" method="post">
+                <button type="submit" class="btn btn-danger">Back</button>
+            </form>
+            <form asp-action="LoadPyramid" method="post">
+                <button type="submit" class="btn btn-primary">Next</button>
+            </form>
+        </div>
+    </div>
+</div>

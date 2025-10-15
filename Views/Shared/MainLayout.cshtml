@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - IPT2Assignment2</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" asp-action="loadHome">Pisa Mozarella</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="btn btn-outline-light me-2" asp-action="LoadHome">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-light me-2" asp-action="LoadAbout">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-light me-2" asp-action="LoadContact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-danger" asp-action="LoadLogin">Log Out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>

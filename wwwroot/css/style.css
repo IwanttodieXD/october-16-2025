@@ -1,0 +1,82 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+    background-color: #fef9f3;
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Gallery panel style */
+.gallery-panel {
+    background: #ffffffcc; /* slight transparency */
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual image boxes */
+.image-box {
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .image-box img {
+        transition: transform 0.3s ease;
+    }
+
+    /* Hover zoom effect */
+    .image-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+        .image-box:hover img {
+            transform: scale(1.1);
+        }
+
+
+.container form {
+    display: inline-block;
+    margin: 15px;
+}
+
+/* Big square colorful buttons */
+.menu-btn {
+    width: 200px;
+    height: 200px;
+    color: black;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+}
+
+    /* Hover animation */
+    .menu-btn:hover {
+        transform: scale(1.07);
+        filter: brightness(0.9);
+    }
+
+/* Individual button colors */
+.container form:nth-child(1) .menu-btn {
+    background-color: #28a745; /* Green */
+}
+
+.container form:nth-child(2) .menu-btn {
+    background-color: #007bff; /* Blue */
+}
+
+.container form:nth-child(3) .menu-btn {
+    background-color: #ffc107; /* Yellow */
+}
+
+.container form:nth-child(4) .menu-btn {
+    background-color: #dc3545; /* Red */
+}
+
+.container form:nth-child(5) .menu-btn {
+    background-color: black;
+    color: white;
+}
